@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/imgs/portfolio.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/contact/style.css" />
+
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <a href="/app/index.html"><li>Home</li></a>
+            <a href="/Projects/Projects.html"><li>Projects</li></a>
+            <a href="/Skills/Skills.html"><li>Skills</li></a>
+            <a href="/Contact/contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <h2>Looking for a skilled developer for your website?</h2>
+    <p class="p-1">Let's bring your dream site to life!</p>
+    <p class="p-2">
+      Reach out to me and together, we can make your vision a reality.
+    </p>
+
+    <section id="contact">
+      <form id="contact-form" action="process_form.php" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            minlength="10"
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      
+    </section>
+  </body>
+</html>

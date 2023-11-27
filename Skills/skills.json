@@ -1,0 +1,16 @@
+[
+  { "name": "HTML", "icon": "fab fa-html5", "color": "#E44D26" },
+  { "name": "CSS", "icon": "fab fa-css3-alt", "color": "#264DE4" },
+  { "name": "JavaScript", "icon": "fab fa-js", "color": "#F7DF1E" },
+  { "name": "React", "icon": "fab fa-react", "color": "#61DAFB" },
+  { "name": "MongoDB", "icon": "fab fa-envira", "color": "#4DB33D" },
+  { "name": "Git", "icon": "fab fa-git", "color": "#F05032" },
+  { "name": "GitHub", "icon": "fab fa-github", "color": "#181717" },
+  { "name": "Ubuntu", "icon": "fab fa-ubuntu", "color": "#E95420" },
+  { "name": "Windows", "icon": "fab fa-windows", "color": "#00ADEF" },
+  { "name": "SCSS", "icon": "fab fa-sass", "color": "#CC6699" },
+  { "name": "TailwindCSS", "icon": "fas fa-wind", "color": "#06B6D4" }
+]
+
+
+  
